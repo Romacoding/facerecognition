@@ -6,6 +6,7 @@ import Rank from './components/Rank/Rank';
 import Particles from 'react-particles-js';
 import Clarifai from 'clarifai';
 import FaceRecognition from './components/FaceRecognition/FaceRecognition';
+import Signin from './components/Signin/Signin';
 import './App.css';
 
 const app = new Clarifai.App({
@@ -101,6 +102,7 @@ class App extends Component {
           params={particlesOptions}
         />
         <Navigation/>
+        <Signin loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
         <Logo/>
         <Rank/>
          <ImageLinkForm

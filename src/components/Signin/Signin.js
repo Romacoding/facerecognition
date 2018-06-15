@@ -42,7 +42,7 @@ class Signin extends React.Component {
         <main className="pa4 black-80">
           <div className="measure">
             <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-              <legend className="f1 fw6 ph0 mh0">Sign In</legend>
+              <legend className="f1 fw6 ph0 mh0 center">Sign In</legend>
               <div className="mt3">
                 <label className="db fw6 lh-copy f6" htmlFor="email-address">Email</label>
                 <input
@@ -64,7 +64,7 @@ class Signin extends React.Component {
                 />
               </div>
             </fieldset>
-            <div className="">
+            <div className="center">
               <input
                 onClick={this.onSubmitSignIn}
                 className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib"
@@ -72,7 +72,7 @@ class Signin extends React.Component {
                 value="Sign in"
               />
             </div>
-            <div className="lh-copy mt3">
+            <div className="lh-copy mt3 center">
               <p  onClick={() => onRouteChange('register')} className="f6 link dim black db pointer">Register</p>
             </div>
           </div>
