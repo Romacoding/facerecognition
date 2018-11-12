@@ -1,4 +1,4 @@
-# SmartBrain - v2
+# Facerecognition App
 Final project for Udemy course
 
 1. Clone this repo
